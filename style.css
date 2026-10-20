@@ -1,0 +1,30 @@
+.dabody {
+    background-color: antiquewhite;
+    overflow-y: auto;
+    overflow-x: hidden;
+    background-image:
+    linear-gradient(to right, rgba(0, 0, 0, 0.4) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.4) 1px, transparent 1px);
+    background-size: 35px 35px;
+    justify-content: center;
+    align-items: center;
+}
+
+/* THE MAIN HEADING YALL */
+.Teenage {
+    display: flex;
+    justify-content: center;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    font-size: clamp(15vw,10vw,7vw);
+    margin-top: 20px;
+    margin-bottom: 0px;
+    color: rgb(16, 8, 0);
+}
+.datext {
+    display: flex;
+    justify-content: center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-top: 0vw;
+     color: rgb(16, 8, 0);
+}
